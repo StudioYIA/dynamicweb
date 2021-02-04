@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,900&display=swap');
+
+/* Mobile first*/
+
+@media all and (max-width: 499px) {
+.maingrid {
+    display: flex;
+    flex-flow: column;
+}
+}
+
+@media all and (min-width: 500px) {
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+
+p, h1, h2, h3 {
+    font-family: "Montserrat";
+}
+
+a {
+    font-family: 'Courier New', Courier, monospace;
+}
+}
