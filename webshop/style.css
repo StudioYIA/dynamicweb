@@ -182,6 +182,7 @@ dt {
   font-weight: 700;
 }
 
+/* codigo dele - keep */
 
 @media screen and (min-width: 1000px) {
   .product main {
@@ -195,6 +196,12 @@ dt {
     transform: translate(-50px, -100px);
   }
 }
+
+.letterLinks a, .brandList h2 {
+  text-transform: uppercase;
+}
+
+
 
 /* Mobile first
 
