@@ -1,0 +1,15 @@
+{
+    "id": 323200,
+    "powers": ["Superior Strength", "Independent", "Agility"],
+    "outfit":"All things golden, kick-ass boots and a whip",
+    "alias": "Wonder Woman",
+    "mission": "World Peace",
+    "cape": false,
+    "weaknesses": ["Sarcasm", "Long Hair", "Shiny Objects"],
+    "image": "https://media4.s-nbcnews.com/j/newscms/2020_53/3438779/201230-wonder-woman-1984-jm-1507_217b92abafb3a8b0b9af8643c2183f92.fit-760w.jpg",
+    "enemies": 5,
+    "sidekick": {
+        "name": "Wonder Girl",
+        "cape": true,
+    }
+}
