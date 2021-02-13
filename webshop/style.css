@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,900&display=swap");
 
 :root {
-  --off-color: red;
+  --off-color: rgb(255, 208, 0);
 }
 html {
   scroll-behavior: smooth;
