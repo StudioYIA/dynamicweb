@@ -50,6 +50,7 @@ function showProduct(product) {
     ".subtle"
   ).textContent = `${product.articletype} | ${product.brandname}`;
   copy.querySelector("h3").textContent = product.productdisplayname;
+  copy.querySelector(".price").textContent = "DKK " + product.price;
 
   copy.querySelector("a").href = `product.html?id=${product.id}`;
 
@@ -58,9 +59,13 @@ function showProduct(product) {
   }
   if (product.discount) {
     copy.querySelector("article").classList.add("onSale");
+    //}
+    //copy.querySelector(".discounted p").textContent = product.price;
+    copy.querySelector(".discounted p").textContent =
+      "DKK " + (product.price - product.price / product.discount).toFixed();
+    copy.querySelector(".discounted p:nth-child(2)").textContent =
+      product.discount + "%";
   }
-  copy.querySelector(".discounted p").textContent = product.price;
-
   //adjust the discount to display both minus and percentage
   copy.querySelector(
     ".discounted .discountamount"
