@@ -198,13 +198,6 @@ dt {
 }
 
 
-/*add to productlist
-.letterLinks a, .brandList h2 {
-  text-transform: uppercase;
-}
-
-
-
 /* Mobile first
 
 @media all and (max-width: 499px) {

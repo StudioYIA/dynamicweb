@@ -62,8 +62,9 @@ function showProduct(product) {
   copy.querySelector(".discounted p").textContent = product.price;
 
   //adjust the discount to display both minus and percentage
-  //copy.querySelector(".discounted .discountamount").textContent =
-  //product.discount;
+  copy.querySelector(
+    ".discounted .discountamount"
+  ).textContent = `-${product.discount}%`;
 
   //grab parent
   const parent = document.querySelector("main");
