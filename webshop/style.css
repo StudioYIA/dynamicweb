@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,900&display=swap");
 
-/*:root {
-  --off-color: rgb(255, 218, 98);
+:root {
+  --off-color: red;
 }
 html {
   scroll-behavior: smooth;
@@ -26,7 +26,7 @@ html {
 }
 
 /*Category*/
-/*.letterLinks ol {
+.letterLinks ol {
   margin-top: 1rem;
   list-style-type: none;
   display: flex;
@@ -58,7 +58,7 @@ html {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 14"><path fill="none" stroke="white" d="M.8 12.87l7.5-6-7.5-6"></path></svg>');
   background-repeat: no-repeat;
   /* url('data:image/svg+xml;utf8,<svg class="svg-arrowRight" viewBox="0 0 9 14"><path fill="none" stroke="#979797" d="M.8 12.87l7.5-6-7.5-6"></path></svg>'); */
-/*}
+}
 .brandList li:hover {
   background: #d8d8d8;
   transition: transform 0.3s;
@@ -74,7 +74,7 @@ html {
 }
 
 /*ProductList*/
-/*.productlist main {
+.productlist main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 300px));
   gap: 2rem;
@@ -132,11 +132,14 @@ html {
   padding: 0.2rem;
 }
 
+.letterLinks a, .brandList h2 {
+  text-transform: uppercase;
+}
+
 /*Product*/
 .breadcrumbs {
   list-style-type: none;
   display: flex;
-  font-family: "Montserrat";
 }
 .breadcrumbs li::after {
   display: inline-block;
@@ -181,9 +184,6 @@ html {
 dt {
   font-weight: 700;
 }
-
-/* codigo dele - keep */
-
 @media screen and (min-width: 1000px) {
   .product main {
     grid-template-columns: 1fr 310px;
@@ -197,6 +197,8 @@ dt {
   }
 }
 
+
+/*add to productlist
 .letterLinks a, .brandList h2 {
   text-transform: uppercase;
 }
